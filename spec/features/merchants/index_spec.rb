@@ -5,7 +5,7 @@ RSpec.describe 'the merchant index' do
 
     visit '/merchants'
 
-    click_link "merchant name"
-    expect(current_path).to eq("/merchants/23")
+    click_link "Schroeder-Jerde"
+    expect(current_path).to eq("/merchants/1")
   end
 end
