@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'the merchant index' do
-  it 'displays a list of merchants' do
+  it 'displays a list of merchants', :vcr do
 
     visit '/merchants'
 
